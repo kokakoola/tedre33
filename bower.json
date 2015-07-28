@@ -1,0 +1,11 @@
+{
+  "name": "tedre33",
+  "version": "0.0.0",
+  "dependencies": {
+    "modernizr": "*",
+    "bootstrap-sass-official": "*",
+    "fontawesome": "*",
+    "handlebars": "~3.0.3",
+    "tabletop": "~1.4.2"
+  }
+}
