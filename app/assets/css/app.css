@@ -8770,8 +8770,8 @@ button.close {
  *    minimum size.
  * 3. Use `%` instead of `vh` since `vh` is buggy in older mobile Safari.
  */
-.box {
-  padding: 20px;
+tr.clickable-row {
+  cursor: pointer;
 }
 
 @media (min-width: 768px) {

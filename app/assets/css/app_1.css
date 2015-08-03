@@ -2,7 +2,7 @@
 
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
-@import url(../../bower_components/flexboxgrid/dist/flexboxgrid.css);
+@import url(flexboxgrid.css);
 
 html {
   font-family: sans-serif;
@@ -8797,24 +8797,8 @@ button.close {
  * 3. Use `%` instead of `vh` since `vh` is buggy in older mobile Safari.
  */
 
-.HolyGrail,
-.HolyGrail-body {
-  display: flex;
-  flex: 1 0 auto;
-  /* 2 */
-  flex-direction: column;
-  height: 100%;
-  /* 1, 3 */
-}
-
-.HolyGrail-header,
-.HolyGrail-footer {
-  flex: none;
-  /* 2 */
-}
-
-.HolyGrail-nav {
-  order: -1;
+tr.clickable-row {
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=app.css.map */

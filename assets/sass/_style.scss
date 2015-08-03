@@ -9,7 +9,11 @@
 .box {
   // background: yellow;
   // border: 1px solid red;
-  padding: 20px;
+  // padding: 20px;
+}
+
+tr.clickable-row { 
+  cursor: pointer; 
 }
 
 // vertical nav

@@ -962,23 +962,6 @@
 }
 
 @media (min-width: 768px) {
-  .HolyGrail-body {
-    flex-direction: row;
-    flex: 1;
-  }
-
-  .HolyGrail-content {
-    flex: 1;
-  }
-
-  .HolyGrail-nav,
-  .HolyGrail-ads {
-    /* 12em is the width of the columns */
-    flex: 0 0 12em;
-  }
-}
-
-@media (min-width: 768px) {
   .navbar-collapse {
     height: auto;
     border-top: 0;
